@@ -60,30 +60,24 @@ Budget $100M, 5,000 simulated futures per plan.
 ## Project structure
 
 ```
-├── Nordhavn_Portfolio_Optimization.ipynb   ← start here: the full analysis, explained step by step
-├── data_gen.py          creates the synthetic portfolio data (data/*.csv)
-├── portfolio.py         the engine: Monte Carlo simulation, baseline, optimizer, risk-aware search
-├── charts.py            all charts
-├── mcp_server.py        exposes the engine as MCP tools for AI assistants
-├── test_mcp_client.py   acts like an AI app: discovers the tools and calls one
-├── data/                initiatives.csv, dependencies.csv, capacity.csv
-├── images/              charts used in this README
+├── Nordhavn_Portfolio_Optimization.ipynb   ← everything is here: data, simulation, optimization, charts, AI interface
+├── data/                initiatives.csv, dependencies.csv, capacity.csv (created by the notebook)
+├── images/              charts used in this README (created by the notebook)
+├── portfolio_engine.py  auto-written by the notebook (Step 10) so the AI interface can use the engine
+├── mcp_server.py        auto-written by the notebook (Step 10): the MCP server for AI assistants
 └── requirements.txt
 ```
+
+All the work happens in the notebook. The two `.py` files exist only because an MCP server has to run as a separate program; the notebook writes them for you.
 
 ## How to run
 
 ```bash
 pip install -r requirements.txt
-python data_gen.py                 # creates data/ (the notebook also does this)
 jupyter notebook Nordhavn_Portfolio_Optimization.ipynb
 ```
 
-Test the AI interface:
-
-```bash
-python test_mcp_client.py          # starts the MCP server, lists its tools, runs 3 what-if scenarios
-```
+Then choose **Run → Run All Cells**. The notebook creates the data, runs the analysis, draws the charts, writes the MCP server, and tests it by acting like an AI app (Step 10).
 
 To use the tools from a desktop AI app that supports MCP, add the server to the app's MCP configuration:
 
