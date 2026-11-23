@@ -1,0 +1,7 @@
+ortools>=9.10
+pandas
+numpy
+matplotlib
+mcp[cli]<2
+nbformat
+ipykernel
