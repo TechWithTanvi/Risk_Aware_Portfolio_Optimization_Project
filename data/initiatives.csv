@@ -1,0 +1,33 @@
+id,name,theme,complexity,duration_q,cost_musd,benefit_musd_per_q,strategic_score,mandatory,fte_software,fte_data_ai,fte_mechanical,fte_pmo
+P01,EV battery mgmt software,Electrification,high,3,14.8,4.23,9,False,4.1,1.5,11.8,2.8
+P02,Charging network integration,Electrification,medium,3,4.8,1.1,8,False,0.4,1.4,3.8,1.1
+P03,EV platform cost-down,Electrification,high,3,8.6,1.77,10,False,0.7,0.9,6.9,2.1
+P04,Battery supplier dual-sourcing,Electrification,medium,3,4.9,0.56,5,False,0.9,0.6,3.9,1.2
+P05,800V architecture pilot,Electrification,medium,3,6.3,1.16,8,False,0.9,1.6,5.0,0.7
+P06,OTA update platform,Software-Defined Vehicle,low,2,2.3,0.47,9,False,2.8,0.8,0.4,0.3
+P07,ADAS perception model v3,Software-Defined Vehicle,medium,2,5.5,1.27,7,False,6.6,4.5,0.6,1.5
+P08,In-car voice assistant,Software-Defined Vehicle,low,1,1.5,0.24,9,False,3.6,1.1,1.0,1.2
+P09,Vehicle OS consolidation,Software-Defined Vehicle,medium,2,3.1,0.85,9,False,3.7,0.9,0.5,0.9
+P10,Digital twin of drivetrain,Software-Defined Vehicle,low,1,1.8,0.32,6,False,4.3,0.5,0.5,1.7
+P11,Cybersecurity (UNECE R155),Software-Defined Vehicle,high,3,12.7,2.56,5,True,10.2,1.8,1.2,3.9
+P12,Predictive maintenance – Plant A,Smart Factory,medium,2,3.7,1.05,5,False,1.4,6.6,1.0,1.3
+P13,Predictive maintenance – Plant B,Smart Factory,medium,3,3.2,0.54,3,False,0.3,3.9,0.3,0.7
+P14,Vision-based quality inspection,Smart Factory,low,1,1.7,0.58,7,False,1.0,4.1,1.4,0.5
+P15,Factory IoT data lake,Smart Factory,medium,2,4.9,0.83,10,False,1.5,8.8,1.4,0.5
+P16,Robotic paint line upgrade,Smart Factory,high,4,12.4,1.93,4,False,2.3,7.4,2.4,2.5
+P17,Energy optimization – plants,Smart Factory,low,2,1.1,0.33,4,False,0.5,2.0,0.2,0.5
+P18,Online direct-sales store,Customer & Digital,low,2,2.9,0.57,5,False,3.5,1.4,1.3,1.2
+P19,Dealer CRM migration,Customer & Digital,high,3,12.3,2.22,7,False,9.8,1.1,3.3,1.7
+P20,Connected-car app 2.0,Customer & Digital,high,3,8.4,2.03,3,False,6.7,2.5,1.0,1.3
+P21,Subscription services billing,Customer & Digital,high,3,8.8,1.02,7,False,7.0,2.2,0.9,1.8
+P22,Customer 360 data product,Customer & Digital,medium,3,5.9,0.68,4,False,4.7,3.0,1.9,1.0
+P23,SAP S/4HANA migration – Finance,Core IT & Compliance,medium,2,4.1,0.36,8,False,4.9,1.3,1.4,0.6
+P24,SAP S/4HANA migration – Supply,Core IT & Compliance,low,2,2.2,0.45,10,False,2.6,0.9,0.2,0.3
+P25,EU battery passport (regulatory),Core IT & Compliance,high,3,13.9,3.38,4,True,11.1,2.5,2.3,2.5
+P26,Data governance & catalog,Core IT & Compliance,medium,3,3.9,1.17,6,False,3.1,2.0,0.3,0.9
+P27,Cloud cost optimization,Core IT & Compliance,low,1,1.3,0.2,5,False,3.1,2.0,0.4,0.3
+P28,Identity & access modernization,Core IT & Compliance,low,1,2.2,0.36,3,False,5.3,1.3,2.0,1.9
+P29,Demand forecasting ML,Supply Chain,low,1,1.5,0.14,4,False,0.7,5.4,0.9,0.4
+P30,Supplier risk early-warning,Supply Chain,high,3,14.2,4.89,10,False,4.0,11.4,3.9,3.4
+P31,Inventory optimization – spare parts,Supply Chain,high,4,10.7,1.97,7,False,1.9,9.6,1.1,0.8
+P32,Logistics route optimization,Supply Chain,medium,2,4.5,0.82,4,False,1.7,8.1,1.0,2.2
